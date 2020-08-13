@@ -1,0 +1,16 @@
+[{"conference" : "Eastern"
+,"matchups" :[[{"team":"Philidelphia", "seed" : 1},{"team":"Montreal", "seed" : 8}]
+              ,[{"team":"Tampa Bay", "seed" : 2},{"team":"Columbus", "seed" : 7}]
+              ,[{"team":"Washington", "seed" : 3},{"team":"NY Islanders", "seed" : 6}]
+              ,[{"team":"Boston", "seed" : 4},{"team":"Carolina", "seed" : 5}]
+               ]
+}
+  ,
+{"conference" : "Western"
+  ,"matchups" :[[{"team":"Vegas", "seed" : 1},{"team":"Chicago", "seed" : 8}]
+               ,[{"team":"Colorado", "seed" : 2},{"team":"Arizona", "seed" : 7}]
+               ,[{"team":"Dallas", "seed" : 3},{"team":"Calgary", "seed" : 6}]
+               ,[{"team":"St. Louis", "seed" : 4},{"team":"Vancouver", "seed" : 5}]
+               ]
+}
+]

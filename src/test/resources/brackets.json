@@ -1,0 +1,37 @@
+[
+  {
+    "owner": "Jacob"
+    ,"rounds":[
+      {"round" : 1
+        ,"conference": "Western"
+        ,"predictions": [{"winner": "Vegas", "gamesPlayed" :6},{"winner": "Arizona", "gamesPlayed" :6}
+                      ,{"winner": "St. Louis", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :6}]
+      }
+      ,{"round" : 1
+        ,"conference": "Eastern"
+        ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
+                      ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Montreal", "gamesPlayed" :6}]
+      }
+      ,{"round" : 2
+        ,"conference": "Western"
+        ,"predictions": [{"winner": "Vegas"},{"winner": "St. Louis"}]
+      }
+      ,{"round" : 2
+        ,"conference": "Eastern"
+        ,"predictions": [{"winner": "Tampa Bay"},{"winner": "Washington"}]
+      }
+      ,{"round" : 3
+        ,"conference": "Western"
+        ,"predictions": [{"winner": "Vegas"}]
+      }
+      ,{"round" : 3
+        ,"conference": "Eastern"
+        ,"predictions": [{"winner": "Washington"}]
+      }
+      ,{"round" : 4
+        ,"conference": "CupFinal"
+        ,"predictions": [{"winner": "Washington"}]
+      }
+  ]
+  }
+]
