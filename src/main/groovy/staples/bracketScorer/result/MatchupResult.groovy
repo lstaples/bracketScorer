@@ -4,6 +4,13 @@ import staples.bracketScorer.Matchup
 
 class MatchupResult extends Matchup{
 
+    RoundResult roundResult
+
+    void setRoundResult(RoundResult roundPrediction){
+        this.roundResult = roundResult
+        roundResult.matchResults << this
+    }
+
 
     Integer pointsAvailable(){
         def points = theRound.pointsAvailable()
