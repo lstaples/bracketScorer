@@ -1,5 +1,6 @@
 package staples.bracketScorer.prediction
 
+import com.sun.org.apache.xpath.internal.operations.Bool
 import staples.bracketScorer.Round
 import staples.bracketScorer.Team
 
@@ -16,9 +17,10 @@ class RoundPrediction extends Round{
         super.getWinners(predictions)
     }
 
-    String print(){
-        def output = "   Predictions for ${conference.toString()} conference round ${number}\n"
-        def downhill = predictions.sort{it.highSeed.seed}.collect{it.print()}.join('\n')
-        return output + downhill
+    String print(Boolean cascade){
+        def output = "   Predictions for ${super.print()}"
+        if(cascade)
+            output += '\n' + predictions.sort{it.highSeed.seed}.collect{it.print()}.join('\n')
+        output
     }
 }

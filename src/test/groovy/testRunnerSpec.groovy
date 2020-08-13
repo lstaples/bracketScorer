@@ -7,7 +7,7 @@ class testRunnerSpec extends Specification{
     def" does this fucking look right to you?"(){
         when:
         def brackets = new BracketImporter().importBrackets()
-        brackets.each{println(it.print())}
+        brackets.each{println(it.print(true))}
         then: println("end of outputt")
     }
 }

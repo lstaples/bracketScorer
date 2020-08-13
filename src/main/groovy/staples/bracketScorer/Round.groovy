@@ -22,4 +22,8 @@ abstract class Round {
         }
 
     }
+
+    String print(){
+        "${conference.toString()} conference round ${number}"
+    }
 }

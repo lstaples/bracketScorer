@@ -16,10 +16,10 @@ class ResultSet extends RoundHolder{
     }
 
 
-    String print(){
+    String print(Boolean cascade){
         def output = "Playoff Results:${owner}\n"
-        def downhill = rounds.collect{it.print()}.join('\n')
-        return output + downhill
-
+        if(cascade)
+            output += '\n' + rounds.collect{it.print()}.join('\n')
+        output
     }
 }

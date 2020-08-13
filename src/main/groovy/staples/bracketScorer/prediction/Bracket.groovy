@@ -17,10 +17,11 @@ class Bracket extends RoundHolder{
     }
 
 
-    String print(){
-        def output = "This bracket belongs to ${owner}\n"
-        def downhill = rounds.collect{it.print()}.join('\n')
-        return output + downhill
+    String print(Boolean cascade){
+        def output = "This bracket belongs to ${owner}"
+        if(cascade)
+            output += '\n' + rounds.collect{it.print(true)}.join('\n')
+        output
 
     }
 

@@ -21,10 +21,4 @@ class MatchupPrediction extends Matchup{
         points
     }
 
-    String print(){
-        def output = "      ${highSeed?.name}{${highSeed.seed}) is playing ${lowSeed?.name}{${lowSeed.seed}).  ${winner.name} wins"
-        if(gamesPlayed)
-            output += " in ${gamesPlayed} games"
-        output
-    }
 }

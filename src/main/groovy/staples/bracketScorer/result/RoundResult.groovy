@@ -15,4 +15,11 @@ class RoundResult extends Round{
     ArrayList<Team> getWinners(){
         super.getWinners(matchResults)
     }
+
+    String print(Boolean cascade){
+        def output = "   Results for ${super.print()}"
+        if(cascade)
+            output += '\n' + matchResults.sort{it.highSeed.seed}.collect{it.print()}.join('\n')
+        output
+    }
 }
