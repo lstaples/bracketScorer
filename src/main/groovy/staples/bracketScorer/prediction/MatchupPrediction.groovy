@@ -1,12 +1,9 @@
 package staples.bracketScorer.prediction
 
 import staples.bracketScorer.Matchup
-import staples.bracketScorer.Team
 import staples.bracketScorer.result.MatchupResult
 
 class MatchupPrediction extends Matchup{
-    Team winner
-    Integer gamesPlayed
     RoundPrediction roundPrediction
 
     void setRoundPrediction(RoundPrediction roundPrediction){

@@ -1,11 +1,9 @@
 package staples.bracketScorer.result
 
 import staples.bracketScorer.Matchup
-import staples.bracketScorer.Team
 
 class MatchupResult extends Matchup{
-    Team winner
-    Integer gamesPlayed
+
 
     Integer pointsAvailable(){
         def points = theRound.pointsAvailable()

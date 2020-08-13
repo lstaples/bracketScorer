@@ -1,10 +1,13 @@
 package staples.bracketScorer
 
 
-class Round {
+abstract class Round {
     Conference conference
     Integer number
 
+    ArrayList<Team> getWinners(List matchups){
+        matchups.collect{it.winner}
+    }
 
     Integer pointsAvailable(){
         switch(number){

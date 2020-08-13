@@ -12,8 +12,8 @@ class RoundPrediction extends Round{
         bracket.rounds << this
     }
 
-    ArrayList<Team> predictedWinners(){
-        predictions.collect{it.winner}
+    ArrayList<Team> getWinners(){
+        super.getWinners(predictions)
     }
 
     String print(){

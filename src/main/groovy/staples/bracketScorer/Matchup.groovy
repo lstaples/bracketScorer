@@ -6,4 +6,6 @@ import groovy.transform.ToString
 class Matchup {
     Team highSeed
     Team lowSeed
+    Team winner
+    Integer gamesPlayed
 }
