@@ -5,6 +5,12 @@ import staples.bracketScorer.Team
 
 class RoundPrediction extends Round{
     ArrayList<MatchupPrediction> predictions = new ArrayList<MatchupPrediction>()
+    Bracket bracket
+
+    void setBracket(Bracket bracket){
+        this.bracket = bracket
+        bracket.rounds << this
+    }
 
     ArrayList<Team> predictedWinners(){
         predictions.collect{it.winner}

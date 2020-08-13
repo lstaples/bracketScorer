@@ -42,7 +42,7 @@ class BracketImporter {
         ArrayList<Matchup> seededMatchups
 
         def roundPrediction = new RoundPrediction(conference: conference,number: roundNumber)
-        bracket.rounds << roundPrediction
+        roundPrediction.bracket = bracket
         sortedRounds[roundNumber][conference].each{prediction ->
             def matchUpPrediciton = new MatchupPrediction()
             matchUpPrediciton.winner = teams[prediction.winner]
@@ -63,7 +63,7 @@ class BracketImporter {
 
             matchUpPrediciton.highSeed = matchup.highSeed
             matchUpPrediciton.lowSeed = matchup.lowSeed
-            roundPrediction.predictions << matchUpPrediciton
+            matchUpPrediciton.roundPrediction = roundPrediction
         }
 
     }
