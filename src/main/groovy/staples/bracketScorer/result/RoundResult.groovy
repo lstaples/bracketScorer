@@ -4,7 +4,7 @@ import staples.bracketScorer.Round
 import staples.bracketScorer.Team
 
 class RoundResult extends Round{
-    ArrayList<MatchupResult> matchResults
+    ArrayList<MatchupResult> matchResults = new ArrayList<MatchupResult>()
     ResultSet resultSet
 
     void setResultSet(ResultSet resultSet){

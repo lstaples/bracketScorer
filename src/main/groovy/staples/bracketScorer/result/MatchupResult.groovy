@@ -6,7 +6,7 @@ class MatchupResult extends Matchup{
 
     RoundResult roundResult
 
-    void setRoundResult(RoundResult roundPrediction){
+    void setRoundResult(RoundResult roundResult){
         this.roundResult = roundResult
         roundResult.matchResults << this
     }
