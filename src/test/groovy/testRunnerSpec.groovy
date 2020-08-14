@@ -32,7 +32,7 @@ class testRunnerSpec extends Specification{
         new BracketScorer().scoreBracket(brackets[0],resultSet)
         then:
         brackets.each{println(it.print(true))
-            println(it.getdAwardedPoints())
+            println(it.getAwardedPoints())
             println(it.getAvailablePoints())
         }
         println("end of output")
