@@ -19,9 +19,8 @@ class BracketScorer {
                 if(matchedWinningTeam){
                     prediction.winnerIsRight = true
                     //work backwords to check and see if the games played is right
-                    def matchedWinningMatchup = roundResult.find{it.matchResults.winner == matchedWinningTeam}
-                    //if(prediction.roundPrediction.number == 1 && prediction.gamesPlayed == matchedWinningMatchup.gamesPlayed)
-                     if(1==2)
+                    def matchedWinningMatchup = roundResult.matchResults.find{it.winner == matchedWinningTeam}
+                    if(prediction.roundPrediction.number == 1 && prediction.gamesPlayed == matchedWinningMatchup.gamesPlayed)
                         prediction.gamesPlayedIsRight = true
                 }
 
