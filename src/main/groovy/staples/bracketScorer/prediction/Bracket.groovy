@@ -25,4 +25,8 @@ class Bracket extends RoundHolder{
 
     }
 
+    RoundPrediction findRound(Integer roundNumber, Conference conference){
+        rounds.find{round -> round.number == roundNumber && round.conference == conference}
+    }
+
 }

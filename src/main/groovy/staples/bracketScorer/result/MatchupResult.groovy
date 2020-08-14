@@ -10,12 +10,4 @@ class MatchupResult extends Matchup{
         this.roundResult = roundResult
         roundResult.matchResults << this
     }
-
-
-    Integer pointsAvailable(){
-        def points = theRound.pointsAvailable()
-        if(theRound.number == 1)
-            points += 3
-        points
-    }
 }

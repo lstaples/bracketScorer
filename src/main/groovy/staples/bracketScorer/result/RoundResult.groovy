@@ -16,6 +16,14 @@ class RoundResult extends Round{
         super.getWinners(matchResults)
     }
 
+    ArrayList<Team> getLosers(){
+        matchResults.collect{it.loser}
+    }
+
+    ArrayList<Team> getTeams(){
+        matchResults.collect{[it.winner,it.loser]}.flatten()
+    }
+
     String print(Boolean cascade){
         def output = "   Results for ${super.print()}"
         if(cascade)

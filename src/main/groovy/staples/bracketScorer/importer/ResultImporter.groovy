@@ -7,9 +7,12 @@ import staples.bracketScorer.result.RoundResult
 
 class ResultImporter extends RoundHolderImporter{
 
+    ResultImporter (RoundOneData data){
+        roundOneData = data
+        this
+    }
+
     ResultSet importResults(){
-        if(!roundOneData)
-            roundOneData = new RoundOneImporter().loadResources().data
 
         def resultSet = new ResultSet()
         List resultsJson = getResultsJson()

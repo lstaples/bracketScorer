@@ -7,9 +7,12 @@ import staples.bracketScorer.prediction.RoundPrediction
 
 class BracketImporter extends RoundHolderImporter{
 
+    BracketImporter (RoundOneData data){
+        roundOneData = data
+        this
+    }
+
     ArrayList<Bracket> importBrackets(){
-        if(!roundOneData)
-            roundOneData = new RoundOneImporter().loadResources().data
 
         def brackets = new ArrayList<Bracket>()
         List bracketsJson = getBracketJson()
@@ -25,7 +28,6 @@ class BracketImporter extends RoundHolderImporter{
                 }
             }
             buildRoundPredications(bracket,4,"CupFinal" as Conference, sortedRounds)
-
             brackets << bracket
         }
         brackets

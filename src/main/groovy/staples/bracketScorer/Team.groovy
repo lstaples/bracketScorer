@@ -7,5 +7,6 @@ class Team {
     String name
     Conference conference
     Integer seed
+    Boolean eliminated = false
 
 }

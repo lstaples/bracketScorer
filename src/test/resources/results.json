@@ -1,20 +1,16 @@
 [
  {"round" : 1
     ,"conference": "Western"
-    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :6},{"winner": "Arizona", "gamesPlayed" :6}
-    ,{"winner": "St. Louis", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :6}]
+    ,"predictions": [{"winner": "Chicago", "gamesPlayed" :6},{"winner": "Colorado", "gamesPlayed" :6}
+    ,{"winner": "Vancouver", "gamesPlayed" :6},{"winner": "Dallas", "gamesPlayed" :6}]
  }
  ,{"round" : 1
     ,"conference": "Eastern"
     ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
     ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Montreal", "gamesPlayed" :6}]
  }
- ,{"round" : 2
-    ,"conference": "Western"
-    ,"predictions": [{"winner": "Vegas"},{"winner": "St. Louis"}]
-  }
   ,{"round" : 2
-    ,"conference": "Eastern"
-    ,"predictions": [{"winner": "Tampa Bay"}]
-   }
+,"conference": "Eastern"
+,"predictions": [{"winner": "Boston", "gamesPlayed" :6}]
+}
 ]

@@ -1,9 +1,10 @@
 package staples.bracketScorer.prediction
 
-import com.sun.org.apache.xpath.internal.operations.Bool
+import groovy.transform.ToString
 import staples.bracketScorer.Round
 import staples.bracketScorer.Team
 
+//@ToString(includeSuper = true,includeNames = true)
 class RoundPrediction extends Round{
     ArrayList<MatchupPrediction> predictions = new ArrayList<MatchupPrediction>()
     Bracket bracket

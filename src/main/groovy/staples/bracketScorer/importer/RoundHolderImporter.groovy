@@ -27,8 +27,6 @@ abstract class RoundHolderImporter {
 
     void constructMatchUpFromJson(Matchup matchUp,Map matchUpJson,RoundHolder roundHolder,Integer roundNumber,Conference conference)  {
         def matchupMatch
-        matchUp.winner = roundOneData.teams[matchUpJson.winner]
-        matchUp.gamesPlayed = matchUpJson.gamesPlayed
         switch(roundNumber){
             case 1:
                 matchupMatch = roundOneData.matchups.find{it.highSeed.name == matchUpJson.winner || it.lowSeed.name == matchUpJson.winner}
@@ -44,6 +42,8 @@ abstract class RoundHolderImporter {
 
         matchUp.highSeed = matchupMatch.highSeed
         matchUp.lowSeed = matchupMatch.lowSeed
+        matchUp.winner = roundOneData.teams[matchUpJson.winner]
+        matchUp.gamesPlayed = matchUpJson.gamesPlayed
 
     }
 
