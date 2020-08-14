@@ -39,7 +39,12 @@ class MatchupPrediction extends Matchup{
     }
 
     String print(){
-        "${super.print()}. ${pointsAwared()} points awarded.  ${pointsAvailable()} points available"
+        def output = super.print()
+        if(scored())
+            output += ". ${pointsAwared()} points awarded."
+        else
+            output += ". ${pointsAvailable()} points available."
+        output
     }
 
 }
