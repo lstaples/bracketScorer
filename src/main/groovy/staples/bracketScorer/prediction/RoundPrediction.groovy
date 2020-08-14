@@ -18,6 +18,14 @@ class RoundPrediction extends Round{
         super.getWinners(predictions)
     }
 
+    Integer getAwardedPoints(){
+        predictions.inject(0) {result, i -> result + i.pointsAwared()}
+    }
+
+    Integer getAvailablePoints(){
+        predictions.inject(0) {result, i -> result + i.pointsAvailable()}
+    }
+
     String print(Boolean cascade){
         def output = "   Predictions for ${super.print()}"
         if(cascade)

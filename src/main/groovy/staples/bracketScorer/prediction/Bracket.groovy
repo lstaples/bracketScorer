@@ -29,4 +29,12 @@ class Bracket extends RoundHolder{
         rounds.find{round -> round.number == roundNumber && round.conference == conference}
     }
 
+    Integer getdAwardedPoints(){
+        rounds.inject(0) {result, i -> result + i.getAwardedPoints()}
+    }
+
+    Integer getAvailablePoints(){
+        rounds.inject(0) {result, i -> result + i.getAvailablePoints()}
+    }
+
 }
