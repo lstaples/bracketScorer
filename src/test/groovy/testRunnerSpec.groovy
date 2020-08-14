@@ -31,7 +31,10 @@ class testRunnerSpec extends Specification{
         ResultSet resultSet = new ResultImporter(data).importResults()
         new BracketScorer().scoreBracket(brackets[0],resultSet)
         then:
-        brackets.each{println(it.print(true))}
+        brackets.each{println(it.print(true))
+            println(it.getdAwardedPoints())
+            println(it.getAvailablePoints())
+        }
         println("end of output")
 
 
