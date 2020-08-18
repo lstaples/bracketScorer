@@ -1,6 +1,7 @@
 [
   {
     "owner": "Jacob"
+    ,"leagues": ["McKids","StaplesFamily"]
     ,"rounds":[
       {"round" : 1
         ,"conference": "Western"

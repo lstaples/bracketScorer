@@ -4,12 +4,17 @@ import staples.bracketScorer.importer.ResultImporter
 import staples.bracketScorer.importer.RoundOneImporter
 import staples.bracketScorer.result.ResultSet
 import staples.bracketScorer.scoring.BracketScorer
+import staples.bracketScorer.prediction.League
+import groovy.io.FileType
 
 //fuck it...hack this in
 outputDirectory = "C:\\Users\\lstaples\\IdeaProjects\\bracketScorer\\runner\\results"
         
  //clear the results
- new File(outputDirectory).eachFile{it.delete()}
+new File(outputDirectory).eachFile(FileType.FILES){it.delete()}
+League.values().each{leagueName ->
+    new File(outputDirectory + "\\" + leagueName).eachFile{it.delete()}
+}
  
 //parse the input JSON 
 def data = new RoundOneImporter().loadResources().data
@@ -26,10 +31,14 @@ def resultsFile = new File(outputDirectory + '\\results.txt')
 resultsFile.write(resultSet.print(true))
 
 //write the brackets to disk
-brackets.each{bracket ->
-    resultsFile = new File(outputDirectory + "\\${bracket.owner}.txt")
-    resultsFile.write(bracket.print(true))
-} 
+League.values().each{leagueName -> 
+    brackets.each{bracket ->
+        if(bracket.leagues.find{it == leagueName}){
+            resultsFile = new File(outputDirectory + "\\" + leagueName + "\\${bracket.owner}.txt")
+            resultsFile.write(bracket.print(true))
+        }
+    } 
+}
 
 //build a leaderboard and write that to disk
 def leaderboard = ""

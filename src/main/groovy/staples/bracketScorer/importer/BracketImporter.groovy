@@ -2,6 +2,7 @@ package staples.bracketScorer.importer
 
 import staples.bracketScorer.Conference
 import staples.bracketScorer.prediction.Bracket
+import staples.bracketScorer.prediction.League
 import staples.bracketScorer.prediction.MatchupPrediction
 import staples.bracketScorer.prediction.RoundPrediction
 
@@ -19,6 +20,11 @@ class BracketImporter extends RoundHolderImporter{
 
         bracketsJson.each{ bracketJson ->
             def bracket = new Bracket(owner:bracketJson.owner)
+
+            bracketJson.leagues.each{String leagueName ->
+                bracket.leagues << (leagueName as League)
+            }
+
             Map sortedRounds =  sortRounds(bracketJson.rounds)
 
             //loop through 6 rounds of prections and add them in, then cup final, need to go in order to compute seeding

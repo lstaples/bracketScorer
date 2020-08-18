@@ -7,6 +7,7 @@ import staples.bracketScorer.RoundHolder
 class Bracket extends RoundHolder{
     String owner
     ArrayList<RoundPrediction> rounds = new ArrayList<RoundPrediction>()
+    ArrayList<League> leagues = new ArrayList<League>()
 
     ArrayList<Matchup> getSeededNextRound(Integer roundNumber, Conference conference){
         super.getSeededNextRound(roundNumber,conference,rounds)
