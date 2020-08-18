@@ -3,6 +3,7 @@ package staples.bracketScorer.prediction
 import staples.bracketScorer.Conference
 import staples.bracketScorer.Matchup
 import staples.bracketScorer.RoundHolder
+import staples.bracketScorer.scoring.MatchupScorer
 
 class Bracket extends RoundHolder{
     String owner
@@ -18,10 +19,10 @@ class Bracket extends RoundHolder{
     }
 
 
-    String print(Boolean cascade){
+    String print(Boolean cascade, MatchupScorer m){
         def output = "This bracket belongs to ${owner}"
         if(cascade)
-            output += '\n' + rounds.collect{it.print(true)}.join('\n')
+            output += '\n' + rounds.collect{it.print(true,m)}.join('\n')
         output
 
     }
@@ -30,12 +31,12 @@ class Bracket extends RoundHolder{
         rounds.find{round -> round.number == roundNumber && round.conference == conference}
     }
 
-    Integer getAwardedPoints(){
-        rounds.inject(0) {result, i -> result + i.getAwardedPoints()}
+    Integer getAwardedPoints(MatchupScorer m){
+        rounds.inject(0) {result, i -> result + i.getAwardedPoints(m)}
     }
 
-    Integer getAvailablePoints(){
-        rounds.inject(0) {result, i -> result + i.getAvailablePoints()}
+    Integer getAvailablePoints(MatchupScorer m){
+        rounds.inject(0) {result, i -> result + i.getAvailablePoints(m)}
     }
 
 }

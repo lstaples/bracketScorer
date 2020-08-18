@@ -4,6 +4,8 @@ import staples.bracketScorer.importer.ResultImporter
 import staples.bracketScorer.importer.RoundOneImporter
 import staples.bracketScorer.result.ResultSet
 import staples.bracketScorer.scoring.BracketScorer
+import staples.bracketScorer.scoring.McKidsScorer
+import staples.bracketScorer.scoring.StaplesFamilyScorer
 
 class testRunnerSpec extends Specification{
     //too lazy to write real tests.  so this is a runner to eyeball results
@@ -12,7 +14,8 @@ class testRunnerSpec extends Specification{
         when:
         def data = new RoundOneImporter().loadResources().data
         def brackets = new BracketImporter(data).importBrackets()
-        brackets.each{println(it.print(true))}
+        def scorer = new StaplesFamilyScorer()
+        brackets.each{println(it.print(true,scorer))}
         then: println("end of output")
     }
 
@@ -31,9 +34,10 @@ class testRunnerSpec extends Specification{
         ResultSet resultSet = new ResultImporter(data).importResults()
         new BracketScorer().scoreBracket(brackets[0],resultSet)
         then:
-        brackets.each{println(it.print(true))
-            println(it.getAwardedPoints())
-            println(it.getAvailablePoints())
+        def scorer = new StaplesFamilyScorer()
+        brackets.each{println(it.print(true,scorer))
+            println(it.getAwardedPoints(scorer))
+            println(it.getAvailablePoints(scorer))
         }
         println("end of output")
 

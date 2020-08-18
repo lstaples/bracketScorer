@@ -4,6 +4,8 @@ import staples.bracketScorer.importer.ResultImporter
 import staples.bracketScorer.importer.RoundOneImporter
 import staples.bracketScorer.result.ResultSet
 import staples.bracketScorer.scoring.BracketScorer
+import staples.bracketScorer.scoring.StaplesFamilyScorer
+import staples.bracketScorer.scoring.McKidsScorer
 import staples.bracketScorer.prediction.League
 import groovy.io.FileType
 
@@ -21,10 +23,14 @@ def data = new RoundOneImporter().loadResources().data
 def brackets = new BracketImporter(data).importBrackets()
 ResultSet resultSet = new ResultImporter(data).importResults()
 
-//score the brackets and sort by leader
+//instantiate the scoring rules per league
+def scoringRules = [:]
+scoringRules[League.McKids] = new McKidsScorer()
+scoringRules[League.StaplesFamily] = new StaplesFamilyScorer()
+
+//score the brackets
 def scorer = new BracketScorer()
 brackets.each{scorer.scoreBracket(it,resultSet)}
-brackets.sort{a,b -> a.getAwardedPoints() <=> b.getAwardedPoints() ?: a.getAvailablePoints() <=> b.getAvailablePoints()}
 
 //write the playoff results to disk
 def resultsFile = new File(outputDirectory + '\\results.txt')
@@ -35,20 +41,21 @@ League.values().each{leagueName ->
     brackets.each{bracket ->
         if(bracket.leagues.find{it == leagueName}){
             resultsFile = new File(outputDirectory + "\\" + leagueName + "\\${bracket.owner}.txt")
-            resultsFile.write(bracket.print(true))
+            resultsFile.write(bracket.print(true,scoringRules[leagueName]))
         }
     } 
 }
 
-//build a leaderboard and write that to disk
+//build and sort leaderboards and write that to disk
 
 League.values().each{leagueName -> 
 
     def bracketsInleague = brackets.findAll{bracket -> bracket.leagues.find{it == leagueName}}
+    bracketsInleague.sort{a,b -> a.getAwardedPoints(scoringRules[leagueName]) <=> b.getAwardedPoints(scoringRules[leagueName]) ?: a.getAvailablePoints(scoringRules[leagueName]) <=> b.getAvailablePoints(scoringRules[leagueName])}
     
     def leaderboard = ""
     bracketsInleague.eachWithIndex{b,i ->
-        leaderboard += "${i+1}) ${b.owner} - ${b.getAwardedPoints()} points awarded. ${b.getAvailablePoints()} points available. \n" 
+        leaderboard += "${i+1}) ${b.owner} - ${b.getAwardedPoints(scoringRules[leagueName])} points awarded. ${b.getAvailablePoints(scoringRules[leagueName])} points available. \n" 
     }
     resultsFile = new File(outputDirectory + "\\" + leagueName  + '\\leaderboard.txt')
     resultsFile.write(leaderboard)

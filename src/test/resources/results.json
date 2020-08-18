@@ -7,7 +7,7 @@
  ,{"round" : 1
     ,"conference": "Eastern"
     ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
-    ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Montreal", "gamesPlayed" :6}]
+    ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Montreal", "gamesPlayed" :5}]
  }
   ,{"round" : 2
 ,"conference": "Eastern"
