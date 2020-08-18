@@ -41,12 +41,18 @@ League.values().each{leagueName ->
 }
 
 //build a leaderboard and write that to disk
-def leaderboard = ""
-brackets.eachWithIndex{b,i ->
-    leaderboard += "${i+1}) ${b.owner} - ${b.getAwardedPoints()} points awarded. ${b.getAvailablePoints()} points available. \n" 
+
+League.values().each{leagueName -> 
+
+    def bracketsInleague = brackets.findAll{bracket -> bracket.leagues.find{it == leagueName}}
+    
+    def leaderboard = ""
+    bracketsInleague.eachWithIndex{b,i ->
+        leaderboard += "${i+1}) ${b.owner} - ${b.getAwardedPoints()} points awarded. ${b.getAvailablePoints()} points available. \n" 
+    }
+    resultsFile = new File(outputDirectory + "\\" + leagueName  + '\\leaderboard.txt')
+    resultsFile.write(leaderboard)
 }
-resultsFile = new File(outputDirectory + '\\leaderboard.txt')
-resultsFile.write(leaderboard)
 
 
 
