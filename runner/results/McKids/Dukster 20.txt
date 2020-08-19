@@ -1,0 +1,23 @@
+This bracket belongs to Dukster 20
+   Predictions for Eastern conference round 1
+      Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 4 games. 13 points available.
+      Tampa Bay{2) is playing Columbus{7).  Columbus wins in 4 games. 13 points available.
+      Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 13 points available.
+      Boston{4) is playing Carolina{5).  Carolina wins in 7 games. 13 points available.
+   Predictions for Western conference round 1
+      Vegas{1) is playing Chicago{8).  Vegas wins in 4 games. 10 points awarded.
+      Colorado{2) is playing Arizona{7).  Colorado wins in 5 games. 13 points available.
+      Dallas{3) is playing Calgary{6).  Calgary wins in 7 games. 13 points available.
+      St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games. 13 points available.
+   Predictions for Eastern conference round 2
+      Philadelphia{1) is playing Columbus{7).  Columbus wins. 25 points available.
+      Washington{3) is playing Carolina{5).  Washington wins. 25 points available.
+   Predictions for Western conference round 2
+      Vegas{1) is playing Calgary{6).  Vegas wins. 25 points available.
+      Colorado{2) is playing Vancouver{5).  Vancouver wins. 25 points available.
+   Predictions for Eastern conference round 3
+      Washington{3) is playing Columbus{7).  Washington wins. 50 points available.
+   Predictions for Western conference round 3
+      Vegas{1) is playing Vancouver{5).  Vegas wins. 50 points available.
+   Predictions for CupFinal conference round 4
+      Washington{3) is playing Vegas{1).  Washington wins. 100 points available.
