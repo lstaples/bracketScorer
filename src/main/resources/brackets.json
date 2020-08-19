@@ -1,7 +1,7 @@
 [
   {
     "owner": "Jacob"
-    ,"leagues": ["McKids","StaplesFamily"]
+  ,"leagues": ["McKids","StaplesFamily"]
   ,"rounds":[
     {"round" : 1
     ,"conference": "Western"
@@ -24,6 +24,222 @@
   ,{"round" : 3
     ,"conference": "Western"
     ,"predictions": [{"winner": "Vegas"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ]
+  },
+  {
+    "owner": "Ryan"
+  ,"leagues": ["McKids","StaplesFamily"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :6},{"winner": "Colorado", "gamesPlayed" :6}
+    ,{"winner": "Vancouver", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :6}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Columbus", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
+      ,{"winner": "Carolina", "gamesPlayed" :6},{"winner": "Philadelphia", "gamesPlayed" :6}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Calgary"},{"winner": "Vancouver"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Philadelphia"},{"winner": "Washington"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Calgary"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ]
+  },
+  {
+    "owner": "Lance"
+  ,"leagues": ["StaplesFamily"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :6},{"winner": "Colorado", "gamesPlayed" :6}
+    ,{"winner": "St. Louis", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :6}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "NY Islanders", "gamesPlayed" :6}
+      ,{"winner": "Carolina", "gamesPlayed" :6},{"winner": "Philadelphia", "gamesPlayed" :6}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"},{"winner": "Colorado"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "NY Islanders"},{"winner": "Tampa Bay"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Colorado"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Tampa Bay"}]
+    }
+  ]
+  },
+  {
+    "owner": "Amy"
+  ,"leagues": ["StaplesFamily"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :6},{"winner": "Colorado", "gamesPlayed" :6}
+    ,{"winner": "St. Louis", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :6}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
+      ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Philadelphia", "gamesPlayed" :6}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"},{"winner": "Colorado"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Boston"},{"winner": "Washington"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Colorado"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Colorado"}]
+    }
+  ]
+  },
+  {
+    "owner": "RoRo"
+  ,"leagues": ["McKids"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :5},{"winner": "Arizona", "gamesPlayed" :6}
+    ,{"winner": "St. Louis", "gamesPlayed" :6},{"winner": "Dallas", "gamesPlayed" :6}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :6},{"winner": "Washington", "gamesPlayed" :6}
+      ,{"winner": "Boston", "gamesPlayed" :6},{"winner": "Philadelphia", "gamesPlayed" :6}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"},{"winner": "Dallas"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Boston"},{"winner": "Washington"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ]
+  },
+  {
+    "owner": "Dukster 20"
+  ,"leagues": ["McKids"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas", "gamesPlayed" :4},{"winner": "Colorado", "gamesPlayed" :5}
+    ,{"winner": "Vancouver", "gamesPlayed" :6},{"winner": "Calgary", "gamesPlayed" :7}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Columbus", "gamesPlayed" :4},{"winner": "Washington", "gamesPlayed" :6}
+      ,{"winner": "Carolina", "gamesPlayed" :7},{"winner": "Philadelphia", "gamesPlayed" :4}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"},{"winner": "Vancouver"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Columbus"},{"winner": "Washington"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Vegas"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ,{"round" : 4
+    ,"conference": "CupFinal"
+    ,"predictions": [{"winner": "Washington"}]
+    }
+  ]
+  },
+  {
+    "owner": "Bmac Attack"
+  ,"leagues": ["McKids"]
+  ,"rounds":[
+    {"round" : 1
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Chicago", "gamesPlayed" :4},{"winner": "Colorado", "gamesPlayed" :5}
+    ,{"winner": "Vancouver", "gamesPlayed" :6},{"winner": "Dallas", "gamesPlayed" :4}]
+    }
+  ,{"round" : 1
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :4},{"winner": "Washington", "gamesPlayed" :4}
+      ,{"winner": "Carolina", "gamesPlayed" :5},{"winner": "Montreal", "gamesPlayed" :5}]
+    }
+  ,{"round" : 2
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Chicago"},{"winner": "Dallas"}]
+    }
+  ,{"round" : 2
+    ,"conference": "Eastern"
+    ,"predictions": [{"winner": "Tampa Bay"},{"winner": "Washington"}]
+    }
+  ,{"round" : 3
+    ,"conference": "Western"
+    ,"predictions": [{"winner": "Chicago"}]
     }
   ,{"round" : 3
     ,"conference": "Eastern"

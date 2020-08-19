@@ -1,1 +1,6 @@
-[]
+[
+  {"round" : 1
+  ,"conference": "Western"
+  ,"predictions": [{"winner": "Vegas", "gamesPlayed" :5}]
+  }
+]
