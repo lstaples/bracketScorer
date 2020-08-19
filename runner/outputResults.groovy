@@ -51,7 +51,7 @@ League.values().each{leagueName ->
 League.values().each{leagueName -> 
 
     def bracketsInleague = brackets.findAll{bracket -> bracket.leagues.find{it == leagueName}}
-    bracketsInleague.sort{a,b -> a.getAwardedPoints(scoringRules[leagueName]) <=> b.getAwardedPoints(scoringRules[leagueName]) ?: a.getAvailablePoints(scoringRules[leagueName]) <=> b.getAvailablePoints(scoringRules[leagueName])}
+    bracketsInleague.sort{a,b -> b.getAwardedPoints(scoringRules[leagueName]) <=> a.getAwardedPoints(scoringRules[leagueName]) ?: b.getAvailablePoints(scoringRules[leagueName]) <=> a.getAvailablePoints(scoringRules[leagueName])}
     
     def leaderboard = ""
     bracketsInleague.eachWithIndex{b,i ->
