@@ -1,3 +1,7 @@
 Playoff Results:
+   Results for Eastern conference round 1
+      Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 5 games
+      Boston{4) is playing Carolina{5).  Boston wins in 5 games
    Results for Western conference round 1
       Vegas{1) is playing Chicago{8).  Vegas wins in 5 games
+      Colorado{2) is playing Arizona{7).  Colorado wins in 5 games

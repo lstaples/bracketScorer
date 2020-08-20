@@ -1,12 +1,12 @@
 This bracket belongs to RoRo
    Predictions for Eastern conference round 1
       Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 13 points available.
-      Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 6 games. 13 points available.
+      Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 6 games. 10 points awarded.
       Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 13 points available.
-      Boston{4) is playing Carolina{5).  Boston wins in 6 games. 13 points available.
+      Boston{4) is playing Carolina{5).  Boston wins in 6 games. 10 points awarded.
    Predictions for Western conference round 1
       Vegas{1) is playing Chicago{8).  Vegas wins in 5 games. 13 points awarded.
-      Colorado{2) is playing Arizona{7).  Arizona wins in 6 games. 13 points available.
+      Colorado{2) is playing Arizona{7).  Arizona wins in 6 games. 0 points awarded.
       Dallas{3) is playing Calgary{6).  Dallas wins in 6 games. 13 points available.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 13 points available.
    Predictions for Eastern conference round 2
