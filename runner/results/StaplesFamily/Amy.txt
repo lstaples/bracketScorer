@@ -2,21 +2,21 @@ This bracket belongs to Amy
    Predictions for Eastern conference round 1
       Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 1 points available.
       Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 6 games. 1 points awarded.
-      Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 1 points available.
+      Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 0 points awarded.
       Boston{4) is playing Carolina{5).  Boston wins in 6 games. 1 points awarded.
    Predictions for Western conference round 1
       Vegas{1) is playing Chicago{8).  Vegas wins in 6 games. 1 points awarded.
       Colorado{2) is playing Arizona{7).  Colorado wins in 6 games. 1 points awarded.
-      Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 1 points available.
+      Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 1 points available.
    Predictions for Eastern conference round 2
       Philadelphia{1) is playing Boston{4).  Boston wins. 2 points available.
-      Tampa Bay{2) is playing Washington{3).  Washington wins. 2 points available.
+      Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 2
       Vegas{1) is playing Calgary{6).  Vegas wins. 2 points available.
       Colorado{2) is playing St. Louis{4).  Colorado wins. 2 points available.
    Predictions for Eastern conference round 3
-      Washington{3) is playing Boston{4).  Washington wins. 4 points available.
+      Washington{3) is playing Boston{4).  Washington wins. 0 points available.
    Predictions for Western conference round 3
       Vegas{1) is playing Colorado{2).  Colorado wins. 4 points available.
    Predictions for CupFinal conference round 4

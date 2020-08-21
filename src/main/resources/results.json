@@ -1,10 +1,10 @@
 [
   {"round" : 1
   ,"conference": "Western"
-  ,"predictions": [{"winner": "Vegas", "gamesPlayed" :5},{"winner": "Colorado", "gamesPlayed" :5}]
+  ,"predictions": [{"winner": "Vegas", "gamesPlayed" :5},{"winner": "Colorado", "gamesPlayed" :5},{"winner": "Dallas", "gamesPlayed" :6}]
   },
   {"round" : 1
   ,"conference": "Eastern"
-  ,"predictions": [{"winner": "Boston", "gamesPlayed" :5},{"winner": "Tampa Bay", "gamesPlayed" :5}]
+  ,"predictions": [{"winner": "Boston", "gamesPlayed" :5},{"winner": "Tampa Bay", "gamesPlayed" :5},{"winner": "NY Islanders", "gamesPlayed" :5}]
   }
 ]

@@ -2,22 +2,22 @@ This bracket belongs to Jacob
    Predictions for Eastern conference round 1
       Philadelphia{1) is playing Montreal{8).  Montreal wins in 6 games. 13 points available.
       Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 6 games. 10 points awarded.
-      Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 13 points available.
+      Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 0 points awarded.
       Boston{4) is playing Carolina{5).  Boston wins in 6 games. 10 points awarded.
    Predictions for Western conference round 1
       Vegas{1) is playing Chicago{8).  Vegas wins in 6 games. 10 points awarded.
       Colorado{2) is playing Arizona{7).  Arizona wins in 6 games. 0 points awarded.
-      Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 13 points available.
+      Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 13 points available.
    Predictions for Eastern conference round 2
       Tampa Bay{2) is playing Montreal{8).  Tampa Bay wins. 25 points available.
-      Washington{3) is playing Boston{4).  Washington wins. 25 points available.
+      Washington{3) is playing Boston{4).  Washington wins. 0 points available.
    Predictions for Western conference round 2
       Vegas{1) is playing Arizona{7).  Vegas wins. 25 points available.
       St. Louis{4) is playing Calgary{6).  St. Louis wins. 25 points available.
    Predictions for Eastern conference round 3
-      Tampa Bay{2) is playing Washington{3).  Washington wins. 50 points available.
+      Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 3
       Vegas{1) is playing St. Louis{4).  Vegas wins. 50 points available.
    Predictions for CupFinal conference round 4
-      Washington{3) is playing Vegas{1).  Washington wins. 100 points available.
+      Washington{3) is playing Vegas{1).  Washington wins. 0 points available.
