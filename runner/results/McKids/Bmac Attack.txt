@@ -1,6 +1,6 @@
 This bracket belongs to Bmac Attack
    Predictions for Eastern conference round 1
-      Philadelphia{1) is playing Montreal{8).  Montreal wins in 5 games. 13 points available.
+      Philadelphia{1) is playing Montreal{8).  Montreal wins in 5 games. 0 points awarded.
       Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 4 games. 10 points awarded.
       Washington{3) is playing NY Islanders{6).  Washington wins in 4 games. 0 points awarded.
       Boston{4) is playing Carolina{5).  Carolina wins in 5 games. 0 points awarded.
@@ -8,7 +8,7 @@ This bracket belongs to Bmac Attack
       Vegas{1) is playing Chicago{8).  Chicago wins in 4 games. 0 points awarded.
       Colorado{2) is playing Arizona{7).  Colorado wins in 5 games. 13 points awarded.
       Dallas{3) is playing Calgary{6).  Dallas wins in 4 games. 10 points awarded.
-      St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games. 13 points available.
+      St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games. 13 points awarded.
    Predictions for Eastern conference round 2
       Tampa Bay{2) is playing Montreal{8).  Tampa Bay wins. 25 points available.
       Washington{3) is playing Carolina{5).  Washington wins. 0 points available.

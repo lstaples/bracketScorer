@@ -1,6 +1,6 @@
 This bracket belongs to Lance
    Predictions for Eastern conference round 1
-      Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 1 points available.
+      Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 1 points awarded.
       Tampa Bay{2) is playing Columbus{7).  Tampa Bay wins in 6 games. 1 points awarded.
       Washington{3) is playing NY Islanders{6).  NY Islanders wins in 6 games. 1 points awarded.
       Boston{4) is playing Carolina{5).  Carolina wins in 6 games. 0 points awarded.
@@ -8,7 +8,7 @@ This bracket belongs to Lance
       Vegas{1) is playing Chicago{8).  Vegas wins in 6 games. 1 points awarded.
       Colorado{2) is playing Arizona{7).  Colorado wins in 6 games. 1 points awarded.
       Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
-      St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 1 points available.
+      St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 0 points awarded.
    Predictions for Eastern conference round 2
       Philadelphia{1) is playing NY Islanders{6).  NY Islanders wins. 2 points available.
       Tampa Bay{2) is playing Carolina{5).  Tampa Bay wins. 2 points available.

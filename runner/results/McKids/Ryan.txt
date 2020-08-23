@@ -1,6 +1,6 @@
 This bracket belongs to Ryan
    Predictions for Eastern conference round 1
-      Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 13 points available.
+      Philadelphia{1) is playing Montreal{8).  Philadelphia wins in 6 games. 13 points awarded.
       Tampa Bay{2) is playing Columbus{7).  Columbus wins in 6 games. 0 points awarded.
       Washington{3) is playing NY Islanders{6).  Washington wins in 6 games. 0 points awarded.
       Boston{4) is playing Carolina{5).  Carolina wins in 6 games. 0 points awarded.
@@ -8,7 +8,7 @@ This bracket belongs to Ryan
       Vegas{1) is playing Chicago{8).  Vegas wins in 6 games. 10 points awarded.
       Colorado{2) is playing Arizona{7).  Colorado wins in 6 games. 10 points awarded.
       Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
-      St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games. 13 points available.
+      St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games. 13 points awarded.
    Predictions for Eastern conference round 2
       Philadelphia{1) is playing Columbus{7).  Philadelphia wins. 25 points available.
       Washington{3) is playing Carolina{5).  Washington wins. 0 points available.
