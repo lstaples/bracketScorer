@@ -14,7 +14,7 @@ class testRunnerSpec extends Specification{
         when:
         def data = new RoundOneImporter().loadResources().data
         def brackets = new BracketImporter(data).importBrackets()
-        def scorer = new StaplesFamilyScorer()
+        def scorer = new McKidsScorer()
         brackets.each{println(it.print(true,scorer))}
         then: println("end of output")
     }
@@ -32,9 +32,13 @@ class testRunnerSpec extends Specification{
         def data = new RoundOneImporter().loadResources().data
         def brackets = new BracketImporter(data).importBrackets()
         ResultSet resultSet = new ResultImporter(data).importResults()
-        new BracketScorer().scoreBracket(brackets[0],resultSet)
+        def bracketScorer = new BracketScorer()
+        brackets.each{bracket ->
+            data.resetScoring()
+            bracketScorer.scoreBracket(bracket,resultSet)
+        }
         then:
-        def scorer = new StaplesFamilyScorer()
+        def scorer = new McKidsScorer()
         brackets.each{println(it.print(true,scorer))
             println(it.getAwardedPoints(scorer))
             println(it.getAvailablePoints(scorer))

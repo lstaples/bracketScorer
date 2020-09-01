@@ -1,9 +1,7 @@
 package staples.bracketScorer.scoring
 
-import staples.bracketScorer.Matchup
 import staples.bracketScorer.prediction.Bracket
 import staples.bracketScorer.result.ResultSet
-import staples.bracketScorer.Team
 
 class BracketScorer {
     void scoreBracket(Bracket bracket,ResultSet resultSet){

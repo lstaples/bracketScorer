@@ -30,7 +30,10 @@ scoringRules[League.StaplesFamily] = new StaplesFamilyScorer()
 
 //score the brackets
 def scorer = new BracketScorer()
-brackets.each{scorer.scoreBracket(it,resultSet)}
+brackets.each{
+    data.resetScoring()
+    scorer.scoreBracket(it,resultSet)
+    }
 
 //write the playoff results to disk
 def resultsFile = new File(outputDirectory + '\\results.txt')
