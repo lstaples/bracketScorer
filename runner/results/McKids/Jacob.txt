@@ -10,8 +10,8 @@ This bracket belongs to Jacob
       Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 0 points awarded.
    Predictions for Eastern conference round 2
-      Tampa Bay{2) is playing Montreal{8).  Tampa Bay wins. 25 points available.
-      Washington{3) is playing Boston{4).  Washington wins. 0 points available.
+      Tampa Bay{2) is playing Montreal{8).  Tampa Bay wins. 25 points awarded.
+      Washington{3) is playing Boston{4).  Washington wins. 0 points awarded.
    Predictions for Western conference round 2
       Vegas{1) is playing Arizona{7).  Vegas wins. 25 points available.
       St. Louis{4) is playing Calgary{6).  St. Louis wins. 0 points available.

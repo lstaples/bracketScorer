@@ -7,4 +7,8 @@
   ,"conference": "Eastern"
   ,"predictions": [{"winner": "Boston", "gamesPlayed" :5},{"winner": "Tampa Bay", "gamesPlayed" :5},{"winner": "NY Islanders", "gamesPlayed" :5},{"winner": "Philadelphia", "gamesPlayed" :6}]
   }
+  ,{"round" : 2
+  ,"conference": "Eastern"
+  ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :5}]
+  }
 ]

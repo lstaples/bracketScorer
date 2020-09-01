@@ -10,7 +10,7 @@ This bracket belongs to RoRo
       Dallas{3) is playing Calgary{6).  Dallas wins in 6 games. 13 points awarded.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 0 points awarded.
    Predictions for Eastern conference round 2
-      Philadelphia{1) is playing Boston{4).  Boston wins. 25 points available.
+      Philadelphia{1) is playing Boston{4).  Boston wins. 0 points awarded.
       Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 2
       Vegas{1) is playing Arizona{7).  Vegas wins. 25 points available.

@@ -9,3 +9,5 @@ Playoff Results:
       Colorado{2) is playing Arizona{7).  Colorado wins in 5 games
       Dallas{3) is playing Calgary{6).  Dallas wins in 6 games
       St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games
+   Results for Eastern conference round 2
+      Tampa Bay{2) is playing Boston{4).  Tampa Bay wins in 5 games

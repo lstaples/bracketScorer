@@ -11,7 +11,7 @@ This bracket belongs to Lance
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 0 points awarded.
    Predictions for Eastern conference round 2
       Philadelphia{1) is playing NY Islanders{6).  NY Islanders wins. 2 points available.
-      Tampa Bay{2) is playing Carolina{5).  Tampa Bay wins. 2 points available.
+      Tampa Bay{2) is playing Carolina{5).  Tampa Bay wins. 2 points awarded.
    Predictions for Western conference round 2
       Vegas{1) is playing Calgary{6).  Vegas wins. 2 points available.
       Colorado{2) is playing St. Louis{4).  Colorado wins. 2 points available.
