@@ -9,6 +9,10 @@
   }
   ,{"round" : 2
   ,"conference": "Eastern"
-  ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :5}]
+  ,"predictions": [{"winner": "Tampa Bay", "gamesPlayed" :5},{"winner": "NY Islanders", "gamesPlayed" :7}]
   }
+  ,{"round" : 2
+  ,"conference": "Western"
+  ,"predictions": [{"winner": "Dallas", "gamesPlayed" :7},{"winner": "Vegas", "gamesPlayed" :7}]
+}
 ]

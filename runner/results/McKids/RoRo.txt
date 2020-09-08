@@ -13,8 +13,8 @@ This bracket belongs to RoRo
       Philadelphia{1) is playing Boston{4).  Boston wins. 0 points awarded.
       Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 2
-      Vegas{1) is playing Arizona{7).  Vegas wins. 25 points available.
-      Dallas{3) is playing St. Louis{4).  Dallas wins. 25 points available.
+      Vegas{1) is playing Arizona{7).  Vegas wins. 25 points awarded.
+      Dallas{3) is playing St. Louis{4).  Dallas wins. 25 points awarded.
    Predictions for Eastern conference round 3
       Washington{3) is playing Boston{4).  Washington wins. 0 points available.
    Predictions for Western conference round 3

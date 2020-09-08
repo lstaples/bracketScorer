@@ -10,14 +10,14 @@ This bracket belongs to Lance
       Dallas{3) is playing Calgary{6).  Calgary wins in 6 games. 0 points awarded.
       St. Louis{4) is playing Vancouver{5).  St. Louis wins in 6 games. 0 points awarded.
    Predictions for Eastern conference round 2
-      Philadelphia{1) is playing NY Islanders{6).  NY Islanders wins. 2 points available.
+      Philadelphia{1) is playing NY Islanders{6).  NY Islanders wins. 2 points awarded.
       Tampa Bay{2) is playing Carolina{5).  Tampa Bay wins. 2 points awarded.
    Predictions for Western conference round 2
-      Vegas{1) is playing Calgary{6).  Vegas wins. 2 points available.
-      Colorado{2) is playing St. Louis{4).  Colorado wins. 2 points available.
+      Vegas{1) is playing Calgary{6).  Vegas wins. 2 points awarded.
+      Colorado{2) is playing St. Louis{4).  Colorado wins. 0 points awarded.
    Predictions for Eastern conference round 3
       Tampa Bay{2) is playing NY Islanders{6).  Tampa Bay wins. 4 points available.
    Predictions for Western conference round 3
-      Vegas{1) is playing Colorado{2).  Colorado wins. 4 points available.
+      Vegas{1) is playing Colorado{2).  Colorado wins. 0 points available.
    Predictions for CupFinal conference round 4
       Tampa Bay{2) is playing Colorado{2).  Tampa Bay wins. 8 points available.

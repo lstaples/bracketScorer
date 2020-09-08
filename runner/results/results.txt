@@ -10,4 +10,8 @@ Playoff Results:
       Dallas{3) is playing Calgary{6).  Dallas wins in 6 games
       St. Louis{4) is playing Vancouver{5).  Vancouver wins in 6 games
    Results for Eastern conference round 2
+      Philadelphia{1) is playing NY Islanders{6).  NY Islanders wins in 7 games
       Tampa Bay{2) is playing Boston{4).  Tampa Bay wins in 5 games
+   Results for Western conference round 2
+      Vegas{1) is playing Vancouver{5).  Vegas wins in 7 games
+      Colorado{2) is playing Dallas{3).  Dallas wins in 7 games

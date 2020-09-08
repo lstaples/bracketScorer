@@ -13,8 +13,8 @@ This bracket belongs to Jacob
       Tampa Bay{2) is playing Montreal{8).  Tampa Bay wins. 25 points awarded.
       Washington{3) is playing Boston{4).  Washington wins. 0 points awarded.
    Predictions for Western conference round 2
-      Vegas{1) is playing Arizona{7).  Vegas wins. 25 points available.
-      St. Louis{4) is playing Calgary{6).  St. Louis wins. 0 points available.
+      Vegas{1) is playing Arizona{7).  Vegas wins. 25 points awarded.
+      St. Louis{4) is playing Calgary{6).  St. Louis wins. 0 points awarded.
    Predictions for Eastern conference round 3
       Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 3
