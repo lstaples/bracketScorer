@@ -18,6 +18,6 @@ This bracket belongs to Jacob
    Predictions for Eastern conference round 3
       Tampa Bay{2) is playing Washington{3).  Washington wins. 0 points available.
    Predictions for Western conference round 3
-      Vegas{1) is playing St. Louis{4).  Vegas wins. 50 points available.
+      Vegas{1) is playing St. Louis{4).  Vegas wins. 0 points awarded.
    Predictions for CupFinal conference round 4
       Washington{3) is playing Vegas{1).  Washington wins. 0 points available.

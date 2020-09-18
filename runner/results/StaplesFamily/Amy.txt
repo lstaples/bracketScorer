@@ -16,8 +16,8 @@ This bracket belongs to Amy
       Vegas{1) is playing Calgary{6).  Vegas wins. 2 points awarded.
       Colorado{2) is playing St. Louis{4).  Colorado wins. 0 points awarded.
    Predictions for Eastern conference round 3
-      Washington{3) is playing Boston{4).  Washington wins. 0 points available.
+      Washington{3) is playing Boston{4).  Washington wins. 0 points awarded.
    Predictions for Western conference round 3
-      Vegas{1) is playing Colorado{2).  Colorado wins. 0 points available.
+      Vegas{1) is playing Colorado{2).  Colorado wins. 0 points awarded.
    Predictions for CupFinal conference round 4
       Washington{3) is playing Colorado{2).  Colorado wins. 0 points available.

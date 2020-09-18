@@ -16,8 +16,8 @@ This bracket belongs to RoRo
       Vegas{1) is playing Arizona{7).  Vegas wins. 25 points awarded.
       Dallas{3) is playing St. Louis{4).  Dallas wins. 25 points awarded.
    Predictions for Eastern conference round 3
-      Washington{3) is playing Boston{4).  Washington wins. 0 points available.
+      Washington{3) is playing Boston{4).  Washington wins. 0 points awarded.
    Predictions for Western conference round 3
-      Vegas{1) is playing Dallas{3).  Vegas wins. 50 points available.
+      Vegas{1) is playing Dallas{3).  Vegas wins. 0 points awarded.
    Predictions for CupFinal conference round 4
       Washington{3) is playing Vegas{1).  Washington wins. 0 points available.
